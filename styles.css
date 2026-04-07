@@ -1,0 +1,254 @@
+
+body {
+background: #f0f7ff;
+background-image: repeating-linear-gradient(
+  45deg,
+  rgba(0, 0, 0, 0.01) 0px,
+  rgba(0, 0, 0, 0.01) 2px,
+  transparent 2px,
+  transparent 6px
+  );
+}
+
+h1 {
+  font-size: 90px;
+  background-color: rgba(136, 58, 210, 0.5);
+  font-family: 'Courier New', fantasy;
+  margin: 10px;
+}
+h2 {
+  display: inline-block;
+  font-size: 35px;
+  font-family: 'Courier New', fantasy;
+  margin: 5px;
+}
+h3 {
+  display: inline-block;
+  font-size: 25px;
+  font-family: 'Courier New', fantasy;
+  margin: 10px;
+}
+
+
+.menu {
+display: flex;
+text-align: center;
+align-items: center;
+
+}
+
+
+
+.logo {
+  display: inline-block;
+
+}
+.logo>img {
+  width: 100px;
+  height: 100px;
+  border: 2px solid;
+  border-radius: 35%;
+  margin:10px;
+}
+
+
+
+.vklad {
+  display:flex;
+  text-align: center;
+
+
+}
+
+.vklad>button {
+  display: inline-block;
+  width: 200px;
+  height: 90px;
+  border: 3px solid;
+  border-radius: 25%;
+  margin: 5px;
+  font-size: 18px;
+  user-select: none;
+  background-color: rgba(41, 134, 204, 0.7);
+  box-shadow: 5px;
+}
+
+.vklad>button:hover {
+  background-color: rgba(41, 134, 204, 0.8);
+  transform: scale(1.05);
+
+}
+
+
+
+.viborTeoria {
+  display: none;
+  padding-left: 124px;
+}
+.viborTeoria>button {
+  display: inline-block;
+  width: 130px;
+  height: 60px;
+  border: 3px solid;
+  border-radius: 25%;
+  margin: 5px;
+  margin-top: -5px;
+  font-size: 18px;
+  user-select: none;
+  background-color: rgba(41, 134, 204, 0.7);
+  box-shadow: 5px;
+}
+
+.viborTeoria>button:hover {
+  background-color: rgba(41, 134, 204, 0.8);
+  transform: scale(1.05);
+
+}
+.viborPraktica {
+  display: none;
+  padding-left: 124px;
+}
+.viborPraktica>button {
+  display: inline-block;
+  width: 130px;
+  height: 60px;
+  border: 3px solid;
+  border-radius: 25%;
+  margin: 5px;
+  margin-top: -5px;
+  font-size: 18px;
+  user-select: none;
+  background-color: rgba(41, 134, 204, 0.7);
+  box-shadow: 5px;
+}
+
+.viborPraktica>button:hover {
+  background-color: rgba(41, 134, 204, 0.8);
+  transform: scale(1.05);
+
+}
+
+.viborTranashor {
+  display: none;
+  padding-left: 124px;
+}
+.viborTranashor>button {
+  display: inline-block;
+  width: 130px;
+  height: 60px;
+  border: 3px solid;
+  border-radius: 25%;
+  margin: 5px;
+  margin-top: -5px;
+  font-size: 18px;
+  user-select: none;
+  background-color: rgba(41, 134, 204, 0.7);
+  box-shadow: 5px;
+}
+
+.viborTranashor>button:hover {
+  background-color: rgba(41, 134, 204, 0.8);
+  transform: scale(1.05);
+
+}
+
+.PolnKyrs {
+  display: none;
+  padding-left: 124px;
+}
+.opis1 {
+  display: block;
+}
+
+.PolnKyrsTems {
+  display: inline-block;
+  border: 2px solid;
+  border-radius: 30px;
+}
+.zgl {
+  text-align: center;
+}
+
+.Mech {
+  padding-left: 10px;
+}
+
+
+
+.forEGE {
+  display: none;
+  padding-left: 124px;
+}
+.opis2 {
+  display: block;
+}
+.forEGETems {
+  display: inline-block;
+  border: 2px solid;
+  border-radius: 30px;
+}
+.zgl2 {
+  text-align: center;
+}
+
+
+.Autor {
+  display: none;
+  padding-left: 124px;
+}
+.Number {
+  display: none;
+  padding-left: 124px;
+}
+.Fstolb>button {
+  display: inline-block;
+  width: 90px;
+  height: 50px;
+  border: 3px solid;
+  border-radius: 15%;
+  margin: 5px;
+  font-size: 18px;
+  user-select: none;
+  background-color: rgba(41, 134, 204, 0.7);
+  box-shadow: 5px;
+}
+.Fstolb>button:hover {
+  background-color: rgba(41, 134, 204, 0.8);
+  transform: scale(1.05);
+}
+.Sstolb>button {
+  display: inline-block;
+  width: 90px;
+  height: 50px;
+  border: 3px solid;
+  border-radius: 15%;
+  margin: 5px;
+  font-size: 18px;
+  user-select: none;
+  background-color: rgba(41, 134, 204, 0.7);
+  box-shadow: 5px;
+}
+.Sstolb>button:hover {
+  background-color: rgba(41, 134, 204, 0.8);
+  transform: scale(1.05);
+}
+.Tstolb>button {
+  display: inline-block;
+  width: 90px;
+  height: 50px;
+  border: 3px solid;
+  border-radius: 15%;
+  margin: 5px;
+  font-size: 18px;
+  user-select: none;
+  background-color: rgba(41, 134, 204, 0.7);
+  box-shadow: 5px;
+}
+.Tstolb>button:hover {
+  background-color: rgba(41, 134, 204, 0.8);
+  transform: scale(1.05);
+}
+.Tems {
+  display: none;
+  padding-left: 124px;
+}
